@@ -31,10 +31,10 @@ Part of the DevOpsOrchestra suite alongside [PipelineConductor](https://github.c
 
 ## Features
 
-- **Scan** - Find Renovate/Dependabot PRs across organizations
-- **Review** - Auto-approve dependency PRs based on Cedar policies
-- **Merge** - Auto-merge approved PRs with configurable strategies
-- **Release** - Create maintenance releases when dependencies are updated
+- 🔍 **Scan** - Find Renovate/Dependabot PRs across organizations
+- ✅ **Review** - Auto-approve dependency PRs based on Cedar policies
+- 🔀 **Merge** - Auto-merge approved PRs with configurable strategies
+- 🚀 **Release** - Create maintenance releases when dependencies are updated
 
 ## Installation
 
