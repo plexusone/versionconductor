@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	github.com/google/go-github/v84 v84.0.0
 	github.com/grokify/gogithub v0.10.0
-	github.com/grokify/mogo v0.73.5
+	github.com/grokify/mogo v0.74.0
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
 	gopkg.in/yaml.v3 v3.0.1
