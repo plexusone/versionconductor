@@ -9,7 +9,7 @@ import (
 
 	"github.com/google/go-github/v84/github"
 	"github.com/grokify/mogo/net/http/retryhttp"
-	"github.com/grokify/versionconductor/pkg/model"
+	"github.com/plexusone/versionconductor/pkg/model"
 )
 
 // Builder constructs a dependency graph from GitHub repositories.

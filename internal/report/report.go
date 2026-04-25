@@ -1,6 +1,6 @@
 package report
 
-import "github.com/grokify/versionconductor/pkg/model"
+import "github.com/plexusone/versionconductor/pkg/model"
 
 // Formatter defines the interface for formatting results.
 type Formatter interface {

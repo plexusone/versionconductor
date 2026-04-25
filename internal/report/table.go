@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grokify/versionconductor/pkg/model"
+	"github.com/plexusone/versionconductor/pkg/model"
 )
 
 // TableFormatter formats results as text tables.

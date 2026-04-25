@@ -3,7 +3,7 @@ package collector
 import (
 	"context"
 
-	"github.com/grokify/versionconductor/pkg/model"
+	"github.com/plexusone/versionconductor/pkg/model"
 )
 
 // Collector defines the interface for collecting repository and PR information.

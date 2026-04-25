@@ -9,9 +9,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/grokify/versionconductor/internal/collector"
-	"github.com/grokify/versionconductor/internal/report"
-	"github.com/grokify/versionconductor/pkg/model"
+	"github.com/plexusone/versionconductor/internal/collector"
+	"github.com/plexusone/versionconductor/internal/report"
+	"github.com/plexusone/versionconductor/pkg/model"
 )
 
 var scanCmd = &cobra.Command{

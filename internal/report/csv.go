@@ -5,7 +5,7 @@ import (
 	"encoding/csv"
 	"fmt"
 
-	"github.com/grokify/versionconductor/pkg/model"
+	"github.com/plexusone/versionconductor/pkg/model"
 )
 
 // CSVFormatter formats results as CSV.

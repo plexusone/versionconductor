@@ -7,7 +7,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/grokify/versionconductor/pkg/model"
+	"github.com/plexusone/versionconductor/pkg/model"
 )
 
 // LoadProfileFromFile loads a merge profile from a YAML file.

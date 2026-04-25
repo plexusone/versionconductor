@@ -13,7 +13,7 @@ import (
 	"github.com/grokify/gogithub/release"
 	"github.com/grokify/gogithub/tag"
 
-	"github.com/grokify/versionconductor/pkg/model"
+	"github.com/plexusone/versionconductor/pkg/model"
 )
 
 // GitHubCollector implements Collector for GitHub repositories.

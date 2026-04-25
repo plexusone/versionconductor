@@ -3,7 +3,7 @@ package graph
 import (
 	"strings"
 
-	"github.com/grokify/versionconductor/pkg/model"
+	"github.com/plexusone/versionconductor/pkg/model"
 )
 
 // Language represents the programming language of a module.

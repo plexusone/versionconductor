@@ -3,7 +3,7 @@ package releaser
 import (
 	"context"
 
-	"github.com/grokify/versionconductor/pkg/model"
+	"github.com/plexusone/versionconductor/pkg/model"
 )
 
 // Releaser defines the interface for creating releases.

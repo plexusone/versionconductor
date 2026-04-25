@@ -3,7 +3,7 @@ package policy
 import (
 	"context"
 
-	"github.com/grokify/versionconductor/pkg/model"
+	"github.com/plexusone/versionconductor/pkg/model"
 )
 
 // Engine evaluates policies for PR merge decisions.

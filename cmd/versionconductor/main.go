@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/grokify/versionconductor/cmd/versionconductor/cmd"
+	"github.com/plexusone/versionconductor/cmd/versionconductor/cmd"
 )
 
 func main() {

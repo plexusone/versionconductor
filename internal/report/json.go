@@ -3,7 +3,7 @@ package report
 import (
 	"encoding/json"
 
-	"github.com/grokify/versionconductor/pkg/model"
+	"github.com/plexusone/versionconductor/pkg/model"
 )
 
 // JSONFormatter formats results as JSON.

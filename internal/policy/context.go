@@ -1,7 +1,7 @@
 package policy
 
 import (
-	"github.com/grokify/versionconductor/pkg/model"
+	"github.com/plexusone/versionconductor/pkg/model"
 )
 
 // ContextBuilder builds PolicyContext from PR and check information.

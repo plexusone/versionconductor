@@ -11,8 +11,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/grokify/versionconductor/internal/graph"
-	"github.com/grokify/versionconductor/internal/report"
+	"github.com/plexusone/versionconductor/internal/graph"
+	"github.com/plexusone/versionconductor/internal/report"
 )
 
 var graphCmd = &cobra.Command{
