@@ -1,11 +1,55 @@
 {
-  "ir_version": "1.0",
+  "irVersion": "1.0",
   "project": "VersionConductor",
   "repository": "https://github.com/plexusone/versionconductor",
   "versioning": "semver",
-  "commit_convention": "conventional",
-  "maintainers": ["grokify"],
+  "commitConvention": "conventional",
+  "maintainers": ["plexusone"],
   "releases": [
+    {
+      "version": "v0.2.0",
+      "date": "2026-04-25",
+      "highlights": [
+        { "description": "Dependency graph analysis for multi-org module relationships" },
+        { "description": "Graph visualization in DOT (Graphviz) and Mermaid formats" },
+        { "description": "Repository moved to plexusone GitHub organization" }
+      ],
+      "added": [
+        { "description": "Dependency graph package for analyzing module relationships", "commit": "c343cb2" },
+        { "description": "go.mod parser with support for require, replace, and exclude directives", "commit": "c343cb2" },
+        { "description": "Graph builder to fetch and analyze modules from GitHub repos", "commit": "c343cb2" },
+        { "description": "Topological sort for correct upgrade ordering", "commit": "c343cb2" },
+        { "description": "Multi-org portfolio support with org and language filtering", "commit": "c343cb2" },
+        { "description": "CLI commands: `graph build`, `graph dependents`, `graph dependencies`, `graph order`, `graph stale`, `graph stats`", "commit": "75517d8" },
+        { "description": "CLI command: `graph visualize` with DOT and Mermaid format options", "commit": "79ea908" },
+        { "description": "Caching layer with memory and file backends, TTL support", "commit": "31b17c1" },
+        { "description": "Rate limiting with automatic retry via `mogo/net/http/retryhttp`", "commit": "3753a0b" },
+        { "description": "Cache CLI options: `--cache`, `--cache-dir`, `--cache-ttl`, `--no-cache`", "commit": "114ad7f" },
+        { "description": "Progress reporting for graph build operations", "commit": "79ea908" }
+      ],
+      "changed": [
+        { "description": "Repository moved from `grokify/versionconductor` to `plexusone/versionconductor`", "commit": "6dd321a" }
+      ],
+      "documentation": [
+        { "description": "GitHub token permissions table in README", "commit": "ab546d5" },
+        { "description": "Multi-org portfolio management design", "commit": "27ab430" },
+        { "description": "Multi-language support design with Language enum and ManifestParser interface", "commit": "27ab430" },
+        { "description": "Git repo storage design for dependency graph persistence", "commit": "27ab430" }
+      ],
+      "testing": [
+        { "description": "Unit tests for go.mod parser (require blocks, replace, exclude, comments)", "commit": "519c644" },
+        { "description": "Unit tests for graph algorithms (dependents, dependencies, topological sort)", "commit": "519c644" },
+        { "description": "Unit tests for filtering by org and language", "commit": "519c644" },
+        { "description": "Unit tests for cache (memory, file, expiration, pruning)", "commit": "31b17c1" },
+        { "description": "Unit tests for DOT/Mermaid visualization (clustering, external deps, escaping)", "commit": "79ea908" },
+        { "description": "Integration tests with mocked GitHub API", "commit": "bb92b59" }
+      ],
+      "dependencies": [
+        { "description": "Upgrade `github.com/google/go-github` to v84", "commit": "88fce86" },
+        { "description": "Upgrade `github.com/grokify/gogithub` to v0.12.1", "commit": "dab1263" },
+        { "description": "Upgrade `github.com/grokify/mogo` to v0.74.2", "commit": "fc96df0" }
+      ]
+    },
     {
       "version": "v0.1.0",
       "date": "2026-01-31",
