@@ -1,7 +1,7 @@
 {
   "ir_version": "1.0",
   "project": "VersionConductor",
-  "repository": "https://github.com/grokify/versionconductor",
+  "repository": "https://github.com/plexusone/versionconductor",
   "versioning": "semver",
   "commit_convention": "conventional",
   "maintainers": ["grokify"],
