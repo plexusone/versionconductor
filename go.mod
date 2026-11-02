@@ -3,7 +3,7 @@ module github.com/plexusone/versionconductor
 go 1.26.4
 
 require (
-	github.com/cedar-policy/cedar-go v1.8.0
+	github.com/cedar-policy/cedar-go v1.9.0
 	github.com/grokify/gogithub v0.18.0
 	github.com/grokify/mogo v0.75.0
 	github.com/plexusone/omniobserve v0.12.0
@@ -19,6 +19,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/felixge/httpsnoop v1.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.10.1 // indirect
+	github.com/go-json-experiment/json v0.0.0-20260820222146-c27c302e5fc3 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-viper/mapstructure/v2 v2.5.0 // indirect
